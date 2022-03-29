@@ -1,1 +1,1 @@
-worker: chmod a+x ./src/telegram.rs && ./src/telegram.rs
+worker: cargo run
