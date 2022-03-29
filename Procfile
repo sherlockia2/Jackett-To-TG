@@ -1,1 +1,1 @@
-worker: ./src/telegram.rs
+worker: chmod a+x ./src/telegram.rs
