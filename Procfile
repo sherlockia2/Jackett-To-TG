@@ -1,1 +1,1 @@
-worker: ./target/debug/telegram-bot-torrents
+worker: cargo build --release ./target/release/telegram-bot-torrents
