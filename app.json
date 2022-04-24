@@ -1,0 +1,20 @@
+{
+    "name": "Jackett-to-TG",
+    "description": "A Telegram bot for all your mirror needs",
+    "repository": "https://github.com/sherlockia2/Jackett-To-TG",
+    "stack": "container",
+    "env": 
+	{
+      "TOKEN": 
+	  {
+        "description": "Get it from Botfather",
+        "required": true
+      },
+      "CHATID": 
+	  {
+        "description": "Get from @googleimgbot",
+        "required": true
+      }
+    }
+}  
+    
