@@ -5,16 +5,45 @@
     "stack": "container",
     "env": 
 	{
-      "TOKEN": 
-	  {
-        "description": "Get it from Botfather",
-        "required": true
-      },
-      "CHATID": 
-	  {
-        "description": "Get from @googleimgbot",
-        "required": true
-      }
-    }
-}  
-    
+		"TELEGRAM_BOT_TOKEN": 
+		{
+        		"description": "Get it from Botfather",
+        		"required": true
+		},
+      		"JACKETT_TOKEN": 
+	  	{
+			"description": "Find the token in the field API Key",
+			"required": true
+      		},
+      		"JACKETT_URL": 
+	  	{
+        		"description": "Defaults to http://localhost:9117",
+        		"required": true
+      		},
+      		"OMDB_TOKEN": 
+	  	{
+        		"description": "Only needed if /imdb command is issued",
+        		"required": false
+      		},
+		"JACKETT_DATA_DIR": 
+	  	{
+        		"description": "Path of config folder",
+        		"required": false
+      		},
+		"TRANSMISSION_TV_PATH": 
+	  	{
+        		"description": "Directory where TV torrents are stored",
+        		"required": false
+      		},
+		"TRANSMISSION_MOVIE_PATH": 
+	  	{
+        		"description": "Directory where Movie torrents are stored",
+        		"required": false
+      		},
+      		"TELEGRAM_ALLOWED_GROUPS": 
+	 	{
+        	"description": "Get from @googleimgbot",
+        	"required": true
+      		}
+	}
+}
